@@ -102,8 +102,7 @@ def notify(yesterday, the_day_before):
 
 
 try:
-    #notify(stock_close_day_today, stock_close_yesterday)
-    notify(890, 720)
+    notify(stock_close_day_today, stock_close_yesterday)
 except NameError:
     notify(stock_close_yesterday, stock_close_day_before_yesterday)
 
